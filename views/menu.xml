@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<menuitem id="room_booking_booking_page" name="Booking" sequence="145"
+        action="action_booking"/>
+	<menuitem id="room_booking_room_page" name="Rooms" parent="room_booking_booking_page" sequence="15"
+        action="action_rooms"/>
+</odoo>
